@@ -1,0 +1,8 @@
+{
+	"baseUrl": "https://demo.midtrans.com",
+	"viewportHeight": 1080,
+	"viewportWidth": 1920,
+	"integrationFolder": ".",
+	"testFiles": "cypress/integration/demo_midtrans.spec.js",
+	"video": false
+}
