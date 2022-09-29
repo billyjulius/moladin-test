@@ -5,13 +5,18 @@
   "author": "Billy Julius",
   "scripts": {
     "cypress-open": "cypress open",
+    "api-test": "mocha ./api/**.spec.js",
     "web-test": "cypress run --browser chrome",
     "web-test-firefox": "cypress run --browser firefox --headed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "chai": "^4.3.6",
+    "chai-json-schema": "^1.5.1",
     "cypress": "^9.6.0",
     "cypress-iframe": "^1.0.1",
-    "eslint-plugin-cypress": "^2.12.1"
+    "eslint-plugin-cypress": "^2.12.1",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4"
   }
 }
