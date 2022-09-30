@@ -1,0 +1,23 @@
+How to test Spoon or Refrigerator ?
+
+Strategi:
+- Testing akan dilakukan secara berkala
+- Testing akan dilakukan ke barang yang sama, bukan ke barang yang akan dipakai
+
+Cara testing untuk Spoon (sendok):
+- Pengecekan bentuk, ukuran dan bahan material pembuatannya apakah sudah sesuai dgn requirement
+  Expected: Bentuk cocok dan material nya sesuai
+- Test fungsional nya dengan melakukan testing menyendok makanan (padat dan kuah)
+  Expected: Sendok dapat menyendok makanan padat dan kuah
+- Test durabilitynya dengan menjatuhkan sendok dari ketinggian 1 meter, apakah langsung rusak atau bengkok
+  Expected: Sendok tidak mengalami perubahan bentuk dan tidak patah
+
+Cara testing untuk Refrigerator (lemari es):
+- Pengecekan bentuk dan bagian-bagian lemari es
+  Expected: Bentuk sesuai, isi lemari es sesuai (ada frezzer, switch pengatur kedinginan, kabel ke power)
+- Test fungsional suhu nya, dengan menyimpan makanan ke dalam lemari es
+  Expected: Setelah 1 jam, makanan di dalam lemari es dalam keadaan tetap dingin
+- Test fungsional freezer nya, dengan meletakkan segelas air di freezer dalam lemari es
+  Expected: Setelah 1 jam, air di gelas yang ada di freezer telah menjadi beku
+- Test fungsional pengeturan suhu nya, dengan cara suhu diatur paling kecil
+  Expected: Setelah 1 jam, isi lemari es tidak terlalu dingin dibanding biasanya
